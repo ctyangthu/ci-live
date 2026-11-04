@@ -1,0 +1,240 @@
+{
+ "checked": "2026-11-04",
+ "sources": [
+  {
+   "title": "桃園機場 即時航班",
+   "flights": 531,
+   "days": [
+    "2026-11-03",
+    "2026-11-04",
+    "2026-11-05"
+   ],
+   "missing": [],
+   "extra": [
+    {
+     "day": "2026-11-03",
+     "airport": "TPE",
+     "io": "dep",
+     "no": "CI61",
+     "time": "23:40",
+     "other": "FRA"
+    }
+   ],
+   "moved": [
+    {
+     "day": "2026-11-03",
+     "airport": "TPE",
+     "io": "arr",
+     "no": "CI62",
+     "published": "07:50",
+     "ours": "06:20",
+     "other": "FRA",
+     "other_ours": "FRA"
+    },
+    {
+     "day": "2026-11-03",
+     "airport": "TPE",
+     "io": "arr",
+     "no": "CI64",
+     "published": "07:45",
+     "ours": "05:30",
+     "other": "VIE",
+     "other_ours": "VIE"
+    },
+    {
+     "day": "2026-11-03",
+     "airport": "TPE",
+     "io": "arr",
+     "no": "CI74",
+     "published": "07:45",
+     "ours": "06:25",
+     "other": "AMS",
+     "other_ours": "AMS"
+    },
+    {
+     "day": "2026-11-03",
+     "airport": "TPE",
+     "io": "arr",
+     "no": "CI82",
+     "published": "19:40",
+     "ours": "18:30",
+     "other": "LHR",
+     "other_ours": "LHR"
+    },
+    {
+     "day": "2026-11-03",
+     "airport": "TPE",
+     "io": "dep",
+     "no": "CI73",
+     "published": "22:25",
+     "ours": "23:15",
+     "other": "AMS",
+     "other_ours": "AMS"
+    },
+    {
+     "day": "2026-11-03",
+     "airport": "TPE",
+     "io": "dep",
+     "no": "CI81",
+     "published": "10:40",
+     "ours": "09:20",
+     "other": "LHR",
+     "other_ours": "LHR"
+    },
+    {
+     "day": "2026-11-04",
+     "airport": "TPE",
+     "io": "arr",
+     "no": "CI62",
+     "published": "07:50",
+     "ours": "06:20",
+     "other": "FRA",
+     "other_ours": "FRA"
+    },
+    {
+     "day": "2026-11-04",
+     "airport": "TPE",
+     "io": "arr",
+     "no": "CI64",
+     "published": "07:45",
+     "ours": "05:30",
+     "other": "VIE",
+     "other_ours": "VIE"
+    },
+    {
+     "day": "2026-11-04",
+     "airport": "TPE",
+     "io": "arr",
+     "no": "CI82",
+     "published": "19:40",
+     "ours": "18:30",
+     "other": "LHR",
+     "other_ours": "LHR"
+    }
+   ]
+  },
+  {
+   "title": "松山機場 當日航班",
+   "flights": 18,
+   "days": [
+    "2026-11-04"
+   ],
+   "missing": [],
+   "extra": [],
+   "moved": []
+  },
+  {
+   "title": "松山機場 定期班表（週表）",
+   "flights": 116,
+   "days": [
+    "2026-11-04",
+    "2026-11-05",
+    "2026-11-06",
+    "2026-11-07",
+    "2026-11-08",
+    "2026-11-09",
+    "2026-11-10"
+   ],
+   "missing": [],
+   "extra": [],
+   "moved": []
+  },
+  {
+   "title": "清泉崗機場 當日航班",
+   "flights": 4,
+   "days": [
+    "2026-11-04"
+   ],
+   "missing": [],
+   "extra": [],
+   "moved": [
+    {
+     "day": "2026-11-04",
+     "airport": "RMQ",
+     "io": "arr",
+     "no": "CI311",
+     "published": "14:05",
+     "ours": "14:00",
+     "other": "OKA",
+     "other_ours": "OKA"
+    }
+   ]
+  },
+  {
+   "title": "清泉崗機場 定期班表（班號）",
+   "flights": 4,
+   "days": [
+    "2026-11-04"
+   ],
+   "missing": [],
+   "extra": [],
+   "moved": []
+  },
+  {
+   "title": "高雄機場 當日航班",
+   "flights": 22,
+   "days": [
+    "2026-11-04"
+   ],
+   "missing": [],
+   "extra": [],
+   "moved": [
+    {
+     "day": "2026-11-04",
+     "airport": "KHH",
+     "io": "dep",
+     "no": "CI164",
+     "published": "07:05",
+     "ours": "07:15",
+     "other": "ICN",
+     "other_ours": "ICN"
+    },
+    {
+     "day": "2026-11-04",
+     "airport": "KHH",
+     "io": "dep",
+     "no": "CI198",
+     "published": "07:30",
+     "ours": "07:25",
+     "other": "KMJ",
+     "other_ours": "KMJ"
+    }
+   ]
+  },
+  {
+   "title": "高雄機場 定期班表（四週）",
+   "flights": 759,
+   "days": [
+    "2026-11-04",
+    "2026-11-05",
+    "2026-11-06",
+    "2026-11-07",
+    "2026-11-08",
+    "2026-11-09",
+    "2026-11-10",
+    "2026-11-11",
+    "2026-11-12",
+    "2026-11-13",
+    "2026-11-14",
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17",
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22",
+    "2026-11-23",
+    "2026-11-24",
+    "2026-11-25",
+    "2026-11-26",
+    "2026-11-27",
+    "2026-11-28",
+    "2026-11-29"
+   ],
+   "missing": [],
+   "extra": [],
+   "moved": []
+  }
+ ]
+}

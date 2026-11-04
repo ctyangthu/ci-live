@@ -1,0 +1,108 @@
+{
+  "airport_only": [
+    {
+      "no": "CI7929",
+      "o": "KHH",
+      "d": "SIN",
+      "dep": "22:10",
+      "arr": "02:30+1",
+      "dates": [
+        "2026-11-06"
+      ],
+      "known": false,
+      "src": "高雄機場定期班表"
+    },
+    {
+      "no": "CI7927",
+      "o": "KHH",
+      "d": "SIN",
+      "dep": "22:25",
+      "arr": "02:45+1",
+      "dates": [
+        "2026-11-06"
+      ],
+      "known": false,
+      "src": "高雄機場定期班表"
+    },
+    {
+      "no": "CI7927",
+      "o": "KHH",
+      "d": "SIN",
+      "dep": "22:15",
+      "arr": "02:35+1",
+      "dates": [
+        "2026-11-13"
+      ],
+      "known": false,
+      "src": "高雄機場定期班表"
+    },
+    {
+      "no": "CI7928",
+      "o": "SIN",
+      "d": "KHH",
+      "dep": "02:45",
+      "arr": "07:15",
+      "dates": [
+        "2026-11-07"
+      ],
+      "known": false,
+      "src": "高雄機場定期班表"
+    }
+  ],
+  "notes": {
+    "compare": "高雄當日看板把共掛航班列在越南航空的班號下（如 VN580），所以共掛不算進這一列。時刻差多半是個別日期的調整：桃園 11/3–11/4 的歐洲線、高雄 CI164 與 CI198、清泉崗 CI311 都與表定相差 5 至 90 分鐘。多列的 1 筆是 CI61 11/3：班表有、桃園當日未列。桃園看板只涵蓋前一天到後一天，尚未涵蓋週五到週一；這幾天靠 TDX 與 AeroLOPA 檢查。",
+    "cancelled": "CI61／CI62 法蘭克福線在官方時刻表的註腳列了取消日期（CI61：12/24、12/31、1/12、1/19、1/27；CI62：12/25、1/1、1/13、1/20、1/28），TDX 也一致，已從班表扣除。官方時刻表把 CI2063 印成 3/8（週一），但飛行日欄是二、六，回程 CI2064 是 3/10、3/14，這裡推定為 3/9。",
+    "absent": [
+      "清泉崗—北九州、高雄—高松：維基百科列為部分包機航線，本季官方時刻表、TDX 與機場資料都沒有。清泉崗目前只有 CI310/311 沖繩與 AE1857/1858 胡志明市。",
+      "桃園—重慶 CI553/554：曾申請 10/28 復航，據 AeroRoutes 9 月報導已延到 2027/3/31 之後，不在本季。高雄—重慶 CI593/594 則有列，11/18 起每週三。",
+      "關島、檀香山：停航中。德里、孟買、杜拜、盧森堡、安克拉治、亞特蘭大、芝加哥、達拉斯、邁阿密、多倫多：只有貨運。"
+    ]
+  },
+  "sources": [
+    {
+      "name": "中華航空電子班表",
+      "url": "https://www.china-airlines.com/tw/zh/fly/flight-status/timetable",
+      "what": "Issue 1，2026/10/25–2027/3/27，檔案日期 2026/10/20。班表主幹，含華信自營與他航共掛。"
+    },
+    {
+      "name": "TDX 國際定期航班",
+      "url": "https://tdx.transportdata.tw/",
+      "what": "2026/11/4 抓取，逐週到 2027/3/27（高雄、松山、清泉崗到 2027/1/3）。時刻以此為準。"
+    },
+    {
+      "name": "桃園機場即時航班",
+      "url": "https://www.taoyuan-airport.com/",
+      "what": "2026/11/3–11/5。"
+    },
+    {
+      "name": "松山機場定期班表",
+      "url": "https://www.tsa.gov.tw/flights/international/regular",
+      "what": "週表與當日航班。"
+    },
+    {
+      "name": "清泉崗機場航班時刻表",
+      "url": "https://www.tca.gov.tw/?act=fids&code=regular_flight",
+      "what": "週表與當日航班。"
+    },
+    {
+      "name": "高雄機場定期班表",
+      "url": "https://www.kia.gov.tw/FLIPLAN.html",
+      "what": "2026/11/2–11/29 與當日航班。"
+    },
+    {
+      "name": "AeroLOPA",
+      "url": "https://www.aerolopa.com/ci",
+      "what": "OAG 班表（2026/11/3–12/2）的 A350、777、A330 航線，96 個班號都已收錄。"
+    },
+    {
+      "name": "AeroRoutes",
+      "url": "https://www.aeroroutes.com/eng/tag/China+Airlines",
+      "what": "華航 2026/27 冬季公告，用來確認航線異動。"
+    },
+    {
+      "name": "維基百科 中華航空航點",
+      "url": "https://zh.wikipedia.org/zh-tw/%E4%B8%AD%E5%8D%8E%E8%88%AA%E7%A9%BA%E8%88%AA%E7%82%B9",
+      "what": "只用來找可能遺漏的航點，非權威來源。"
+    }
+  ]
+}
