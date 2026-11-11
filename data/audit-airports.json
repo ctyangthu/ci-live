@@ -1,115 +1,56 @@
 {
- "checked": "2026-11-04",
+ "checked": "2026-11-11",
  "sources": [
   {
    "title": "桃園機場 即時航班",
-   "flights": 531,
+   "flights": 532,
    "days": [
-    "2026-11-03",
-    "2026-11-04",
-    "2026-11-05"
+    "2026-11-10",
+    "2026-11-11",
+    "2026-11-12"
    ],
    "missing": [],
-   "extra": [
-    {
-     "day": "2026-11-03",
-     "airport": "TPE",
-     "io": "dep",
-     "no": "CI61",
-     "time": "23:40",
-     "other": "FRA"
-    }
-   ],
+   "extra": [],
    "moved": [
     {
-     "day": "2026-11-03",
-     "airport": "TPE",
-     "io": "arr",
-     "no": "CI62",
-     "published": "07:50",
-     "ours": "06:20",
-     "other": "FRA",
-     "other_ours": "FRA"
-    },
-    {
-     "day": "2026-11-03",
-     "airport": "TPE",
-     "io": "arr",
-     "no": "CI64",
-     "published": "07:45",
-     "ours": "05:30",
-     "other": "VIE",
-     "other_ours": "VIE"
-    },
-    {
-     "day": "2026-11-03",
-     "airport": "TPE",
-     "io": "arr",
-     "no": "CI74",
-     "published": "07:45",
-     "ours": "06:25",
-     "other": "AMS",
-     "other_ours": "AMS"
-    },
-    {
-     "day": "2026-11-03",
-     "airport": "TPE",
-     "io": "arr",
-     "no": "CI82",
-     "published": "19:40",
-     "ours": "18:30",
-     "other": "LHR",
-     "other_ours": "LHR"
-    },
-    {
-     "day": "2026-11-03",
+     "day": "2026-11-10",
      "airport": "TPE",
      "io": "dep",
-     "no": "CI73",
-     "published": "22:25",
-     "ours": "23:15",
-     "other": "AMS",
-     "other_ours": "AMS"
+     "no": "CI112",
+     "published": "07:00",
+     "ours": "06:55",
+     "other": "HIJ",
+     "other_ours": "HIJ"
     },
     {
-     "day": "2026-11-03",
+     "day": "2026-11-10",
      "airport": "TPE",
      "io": "dep",
      "no": "CI81",
-     "published": "10:40",
+     "published": "10:45",
      "ours": "09:20",
      "other": "LHR",
      "other_ours": "LHR"
     },
     {
-     "day": "2026-11-04",
+     "day": "2026-11-11",
      "airport": "TPE",
-     "io": "arr",
-     "no": "CI62",
-     "published": "07:50",
-     "ours": "06:20",
-     "other": "FRA",
-     "other_ours": "FRA"
-    },
-    {
-     "day": "2026-11-04",
-     "airport": "TPE",
-     "io": "arr",
-     "no": "CI64",
-     "published": "07:45",
-     "ours": "05:30",
-     "other": "VIE",
-     "other_ours": "VIE"
-    },
-    {
-     "day": "2026-11-04",
-     "airport": "TPE",
-     "io": "arr",
-     "no": "CI82",
-     "published": "19:40",
-     "ours": "18:30",
+     "io": "dep",
+     "no": "CI81",
+     "published": "10:45",
+     "ours": "09:20",
      "other": "LHR",
      "other_ours": "LHR"
+    },
+    {
+     "day": "2026-11-12",
+     "airport": "TPE",
+     "io": "dep",
+     "no": "CI112",
+     "published": "07:10",
+     "ours": "06:55",
+     "other": "HIJ",
+     "other_ours": "HIJ"
     }
    ]
   },
@@ -117,7 +58,7 @@
    "title": "松山機場 當日航班",
    "flights": 18,
    "days": [
-    "2026-11-04"
+    "2026-11-11"
    ],
    "missing": [],
    "extra": [],
@@ -127,13 +68,13 @@
    "title": "松山機場 定期班表（週表）",
    "flights": 116,
    "days": [
-    "2026-11-04",
-    "2026-11-05",
-    "2026-11-06",
-    "2026-11-07",
-    "2026-11-08",
-    "2026-11-09",
-    "2026-11-10"
+    "2026-11-11",
+    "2026-11-12",
+    "2026-11-13",
+    "2026-11-14",
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
    ],
    "missing": [],
    "extra": [],
@@ -143,28 +84,17 @@
    "title": "清泉崗機場 當日航班",
    "flights": 4,
    "days": [
-    "2026-11-04"
+    "2026-11-11"
    ],
    "missing": [],
    "extra": [],
-   "moved": [
-    {
-     "day": "2026-11-04",
-     "airport": "RMQ",
-     "io": "arr",
-     "no": "CI311",
-     "published": "14:05",
-     "ours": "14:00",
-     "other": "OKA",
-     "other_ours": "OKA"
-    }
-   ]
+   "moved": []
   },
   {
    "title": "清泉崗機場 定期班表（班號）",
    "flights": 4,
    "days": [
-    "2026-11-04"
+    "2026-11-11"
    ],
    "missing": [],
    "extra": [],
@@ -174,13 +104,13 @@
    "title": "高雄機場 當日航班",
    "flights": 22,
    "days": [
-    "2026-11-04"
+    "2026-11-11"
    ],
    "missing": [],
    "extra": [],
    "moved": [
     {
-     "day": "2026-11-04",
+     "day": "2026-11-11",
      "airport": "KHH",
      "io": "dep",
      "no": "CI164",
@@ -190,7 +120,7 @@
      "other_ours": "ICN"
     },
     {
-     "day": "2026-11-04",
+     "day": "2026-11-11",
      "airport": "KHH",
      "io": "dep",
      "no": "CI198",
@@ -203,15 +133,8 @@
   },
   {
    "title": "高雄機場 定期班表（四週）",
-   "flights": 759,
+   "flights": 762,
    "days": [
-    "2026-11-04",
-    "2026-11-05",
-    "2026-11-06",
-    "2026-11-07",
-    "2026-11-08",
-    "2026-11-09",
-    "2026-11-10",
     "2026-11-11",
     "2026-11-12",
     "2026-11-13",
@@ -230,11 +153,39 @@
     "2026-11-26",
     "2026-11-27",
     "2026-11-28",
-    "2026-11-29"
+    "2026-11-29",
+    "2026-11-30",
+    "2026-12-01",
+    "2026-12-02",
+    "2026-12-03",
+    "2026-12-04",
+    "2026-12-05",
+    "2026-12-06"
    ],
    "missing": [],
    "extra": [],
-   "moved": []
+   "moved": [
+    {
+     "day": "2026-11-13",
+     "airport": "KHH",
+     "io": "arr",
+     "no": "CI712",
+     "published": "12:40",
+     "ours": "12:10",
+     "other": "MNL",
+     "other_ours": "MNL"
+    },
+    {
+     "day": "2026-11-13",
+     "airport": "KHH",
+     "io": "dep",
+     "no": "CI711",
+     "published": "07:45",
+     "ours": "07:30",
+     "other": "MNL",
+     "other_ours": "MNL"
+    }
+   ]
   }
  ]
 }
