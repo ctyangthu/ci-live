@@ -23,6 +23,10 @@ AC_SEEN = {"CI7528": "32Q", "CI7529": "32Q"}
 # CI54 flies Auckland–Brisbane–Taipei; on those days TDX gives the Brisbane arrival (21:25) as the departure.
 # The PDF's 23:10 is right: it leaves about 1h45 later and its flying time matches the other days.
 KEEP_PDF_DEP = {("CI54", "BNE", "TPE")}
+# Times Taoyuan publishes, which both the PDF and TDX (as of the snapshot) disagree with: (no, o, d) →
+# (first, last, PDF/TDX departure, departure, arrival). CI81 is shown leaving at 10:45 on every November day seen
+# (11/10, 11/11, 11/20, 11/21); the arrival is not published, so it keeps the usual flying time (16:55 → 18:20).
+AIRPORT_TIMES = {("CI81", "TPE", "LHR"): ("2026-11-02", "2026-11-30", "09:20", "10:45", "18:20")}
 
 
 def split_time(arr):
@@ -131,6 +135,10 @@ def main():
                 dropped.append((no, o, d, day)); continue
             dep, arr = mapped(key, r)
             final[key] = (dep, arr, r["ac"], r["op"], False)
+    for key, (dep, arr, ac, op, ex) in list(final.items()):
+        fix = AIRPORT_TIMES.get(key[1:])
+        if fix and fix[0] <= key[0].isoformat() <= fix[1] and dep == fix[2]:
+            final[key] = (fix[3], fix[4], ac, op, ex)
     ac_of = {(r["no"], r["o"], r["d"]): r["ac"] for r in pdf.values()}
     op_of = {(r["no"], r["o"], r["d"]): r["op"] for r in pdf.values()}
     for key, t in tdx.items():
